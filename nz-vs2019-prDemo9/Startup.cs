@@ -33,6 +33,7 @@ namespace nz_vs2019_prDemo9
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("<h1>Hello World!</h1>");
+                    await context.Response.WriteAsync("<h2>Welcome to my site</h2>");
                 });
             });
         }
